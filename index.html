@@ -4,16 +4,25 @@
 	<title>coffee block</title>
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet"> 
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<meta name="viewport" content="initial-scale=1.0">
 </head>
 <style type="text/css">
+	html,
+	body {
+	    overflow: hidden;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;	
+	}
+
 	body {	
 		font-size: 14px;
 		margin: auto;
-		padding: 50px 40px;
+		padding: 5vh 40px;
 		max-width: 500px;
 		background-color: #F8F9E8;
-		overflow: hidden;
 	}
 	h1, h2 {
 		font-family: 'Roboto Slab', serif;
@@ -31,18 +40,18 @@
 	    font-family: 'Source Sans Pro', sans-serif;
 	}
 	div {
-		margin-top: 50px;
+		margin-top: 8vh;
 		width: 100%;
 		text-align: center;
 	}
 	img {
-		width: 150px;
+		width: 295px;
 	}
 	div::after {
 		content: "";
-		width: 16px;
+		width: 19px;
 		height: 5000px;
-		background-color: black;
+		background-color: #663399;
 		position: absolute;
 		left: 0;
 		right: 0;
@@ -56,7 +65,7 @@
 	<h2>(n.) an inexpensive, fast, and effective popup model for offering your community a space to relax and interact</h2>
 	<p>Want to hold your own or learn more? Email us at <a href="mailto:info@coffeeblock.org">info@coffeeblock.org</a></p>
 	<div>
-		<img src="images/logo.png" decoding="sync">
+		<img src="images/logo.svg" decoding="sync">
 	</div>
 </body>
 </html>
